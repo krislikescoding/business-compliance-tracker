@@ -20,24 +20,31 @@ function calculateScore(){
     resultBox.innerHTML = "Your business is " + score + "% compliant with current UK data laws"
     if (score == 100) {
         risklvlBox.innerHTML = "Perfect"
+        risklvlBox.className = "perfect"
     }
     else if (score >= 80) {
         risklvlBox.innerHTML = "Low Risk"
+        risklvlBox.className = "low-risk"
     }
     else if (score >= 60) {
         risklvlBox.innerHTML = "Medium Risk"
+        risklvlBox.className = "medium-risk"
     }
     else if (score >= 40) {
         risklvlBox.innerHTML = "High Risk"
+        risklvlBox.className = "high-risk"
     }
     else if (score >= 20) {
         risklvlBox.innerHTML = "Critical"
+        risklvlBox.className = "critical"
     }
     else if (score >= 1) {
         risklvlBox.innerHTML = "Severe"
+        risklvlBox.className = "severe"
     }
     else {
-        risklvlBox.innerHTML = "No compliance measures in place"
+        risklvlBox.innerHTML = "No Compliance Measures"
+        risklvlBox.className = "worst"
     }
 
 }

@@ -1,0 +1,106 @@
+body {
+    background-color: #F5F0E8;
+    font-family: 'DM Sans', sans-serif;
+    color: #2C2C2C;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+h1 {
+   color: #2C2C2C;
+   font-family: 'DM Sans', sans-serif;
+   font-size: 2rem;
+
+}
+p {
+    color: #2C2C2C;
+    font-family: 'DM Sans', sans-serif;
+    line-height: 1.6rem;
+    font-size: 1rem;
+}
+div {
+    margin-bottom: 12px;
+}
+button {
+    background-color: #5f5575;
+    color: #F5F0E8;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'DM Sans', sans-serif;
+    padding: 12px 24px;
+    border: none;
+    margin-top: 20px;
+    width: 100%;
+    display: block;
+    
+}
+button:hover {
+    background-color: #504763;
+}
+.container {
+    background-color: #FFFFFF;
+    padding: 35px;
+    max-width: 700px;
+    margin: 60px auto;
+    border-radius: 12px;
+}
+input {
+    accent-color: #6d966d;
+}
+
+::selection {
+    background-color: #ddeedd;
+}
+.perfect {
+    color: #4d9b55;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.low-risk {
+    color: #919f6f;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.medium-risk {
+    color: #b08437;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.high-risk {
+    color: #b9642f;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.critical {
+    color: #bb3232;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.severe {
+    color: #7c0606;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.worst {
+    color: #330000;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+#result {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-top: 0px;
+}
+#risk-level {
+    text-align: center; 
+    margin-bottom: 5px;
+}
+input:hover {
+    cursor: pointer;
+}
+#score-section {
+    border-top: 1px solid #cdcdcd;
+    padding-top: 1px;
+    text-align: center;
+    margin-top: 35px;
+}

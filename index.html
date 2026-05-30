@@ -4,29 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>business compliance checker</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <h1>Business Compliance Checker</h1>
-    <p>Welcome to the business compliance checker! This tool helps you ensure that your business is compliant with relevant regulations and standards. Please follow the steps below to check your compliance status.</p>
-    <input type="checkbox" id="privacy-policy">
-    <label for="privacy-policy">Do you have a privacy policy?</label> 
-    <input type="checkbox" id="submit-data-complaint">
-    <label for="submit-data-complaint">Do you have a process for customers to submit a data complaint? (brand new requirement, June 2026)</label>
-    <input type="checkbox" id="data-complaints30">
-    <label for="data-complaints30">Do you acknowledge data complaints within 30 days?</label> 
-    <input type="checkbox" id="cookie-notice">
-    <label for="cookie-notice">Do you cookie notice on your website?</label>
-    <input type="checkbox" id="data-usage">
-    <label for="data-usage">Do you tell customers what their data is used for?></label>
-    <input type="checkbox" id="storing-data-securely">
-    <label for="storing-data-securely">Do you store customer data securely with basic security measures?</label>
-    <input type="checkbox" id="child-protection">
-    <label for="child-protection"> If your website is used by children, do you have extra protections in place?</label>
-    <input type="checkbox" id="data-processing">
-    <label for="data-processing">Do you have lawful reason for processing customer data?</label>
-    <button id="score-button" onclick="calculateScore()">Check My Compliance Score </button>
-    <p id="result"></p>
-    <p id="risk-level"></p>
-    <script src="index.js"></script>
+    <div class="container">
+        <h1>Business Compliance Checker</h1>
+        <p>Check whether your business meets the lastest UK data protection requiremnts under the Data (Use and Access) Act 2025.</p>
+        <div>
+            <input type="checkbox" id="privacy-policy">
+            <label for="privacy-policy">Do you have a privacy policy?</label>
+        </div>
+        <div>    
+            <input type="checkbox" id="submit-data-complaint">
+            <label for="submit-data-complaint">Do you have a process for customers to submit a data complaint?</label>
+        </div>
+        <div>    
+            <input type="checkbox" id="data-complaints30">
+            <label for="data-complaints30">Do you acknowledge data complaints within 30 days?</label>
+        </div>     
+        <div>
+            <input type="checkbox" id="cookie-notice">
+            <label for="cookie-notice">Do you cookie notice on your website?</label>
+        </div>
+        <div>
+            <input type="checkbox" id="data-usage">
+            <label for="data-usage">Do you tell customers what their data is used for?</label>
+        </div>
+        <div>
+            <input type="checkbox" id="storing-data-securely">
+            <label for="storing-data-securely">Do you store customer data securely with basic security measures?</label>
+        </div>
+        <div>
+            <input type="checkbox" id="child-protection">
+            <label for="child-protection"> If your website is used by children, do you have extra protections in place?</label>
+        </div>
+        <div>
+            <input type="checkbox" id="data-processing">
+            <label for="data-processing">Do you have lawful reason for processing customer data?</label>
+        </div>    
+        <button id="score-button" onclick="calculateScore()">Check My Compliance Score </button>
+        <div id="score-section" >
+            <p id="risk-level"></p>
+            <p id="result"></p>
+        </div>
+        <script src="index.js"></script>
+    </div>
 </body>
 </html>
