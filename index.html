@@ -24,7 +24,9 @@
     <label for="child-protection"> If your website is used by children, do you have extra protections in place?</label>
     <input type="checkbox" id="data-processing">
     <label for="data-processing">Do you have lawful reason for processing customer data?</label>
-    <button id="score-button">Check My Compliance Score </button>
+    <button id="score-button" onclick="calculateScore()">Check My Compliance Score </button>
     <p id="result"></p>
+    <p id="risk-level"></p>
+    <script src="index.js"></script>
 </body>
 </html>
