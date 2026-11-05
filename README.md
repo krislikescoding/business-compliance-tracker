@@ -1,7 +1,7 @@
 # Data Act 2025 (DUAA) Compliance Checker
 
 ## Project Overview
-I built this interactive web application to help UK small businesses evaluate and audit their data handling practices. The goal is to give business owners a practical tool to check their workflows prior to the implementation of the law on 19 June 2026.
+I built this interactive web application to help UK small businesses evaluate and audit their data handling practices. The goal is to give business owners a practical tool to check their workflows prior to the implementation of the new laws on 19 June 2026.
 
 ## Why I Built This
 With the upcoming Data (Use and Access) Act 2025 changing the landscape for data management, I wanted to create a solution that helps businesses stay ahead of legal deadlines. By launching this tool early, it gives users the necessary lead time to understand the updated guidelines and adapt their practices safely.
